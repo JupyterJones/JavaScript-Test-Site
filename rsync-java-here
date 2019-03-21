@@ -1,0 +1,2 @@
+#!/bin/bash
+rsync -avz --progress /var/www/html/tutorial/ home/jack/Desktop/JavaScript-Test-Site

@@ -3,9 +3,11 @@
 <?php
 
 // configuration
-$ThisFile = 'JSeditor.php';
+$ThisFile = 'EDeditor.php';
 $EditThisFile = 'toybox.js';
-
+$name='index-back_'.date('m-d-Y_hia').'.js';
+echo "Original toybox.js backed up as ",$name;
+copy($EditThisFile, $name);
 // Verify the form was submitted
 if (isset($_POST['text']))
 {
@@ -44,5 +46,7 @@ textarea {
 <input type="submit" />
 <input type="reset" />
 </form>
+
 <br /><br />
+<a style="font-size:24px;" href= "TEST.html">THE Java test on TEST.html</a>
 <a style="font-size:24px;" href= "index.html">HOME</a>

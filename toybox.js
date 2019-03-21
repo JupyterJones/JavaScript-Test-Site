@@ -1,1 +1,1 @@
-document.onload = setTimeout(function () { alert('Verifying the JavaScript is Loaded'); }, 4000);
+document.onload = setTimeout(function () { alert('JavaScript is Loaded'); }, 2000);

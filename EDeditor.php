@@ -5,8 +5,8 @@
 // configuration
 $ThisFile = 'EDeditor.php';
 $EditThisFile = 'toybox.js';
-$name='index-back_'.date('m-d-Y_hia').'.html';
-echo "Original index,html backed up as ",$name;
+$name='index-back_'.date('m-d-Y_hia').'.js';
+echo "Original toybox.js backed up as ",$name;
 copy($EditThisFile, $name);
 // Verify the form was submitted
 if (isset($_POST['text']))

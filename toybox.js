@@ -1,0 +1,1 @@
+document.onload = setTimeout(function () { alert('Verifying the JavaScript is Loaded'); }, 4000);

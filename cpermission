@@ -1,0 +1,5 @@
+#!/bin/bash
+
+sudo chown -R jack /var/www/html/tutorial
+sudo chmod -R 777 /var/www/html/tutorial
+ls -rant 
